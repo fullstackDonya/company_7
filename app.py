@@ -1,6 +1,6 @@
 import seaborn as sns
 from faicons import icon_svg
-import config import connect_to_db
+from config import connect_to_db
 
 conn = connect_to_db()
 
@@ -10,9 +10,7 @@ from shared import app_dir, df
 from shiny import reactive
 from shiny.express import input, render, ui
 
-app_ui= ui.page_fluid(  
-    
-)
+
 # ui.page_opts(title="Penguins dashboard", fillable=True)
 
 
